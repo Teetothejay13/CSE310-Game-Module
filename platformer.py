@@ -62,7 +62,7 @@ class MyGame(arcade.Window):
 
         # Put some crates on the ground
         # This shows using a coordinate list to place sprites
-        coordinate_list = [[512, 96], [256, 96], [768, 96]]
+        coordinate_list = [[512, 200], [256, 200], [768, 200]]
 
         for coordinate in coordinate_list:
             # Add a crate on the ground
