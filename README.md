@@ -1,30 +1,24 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This game is a simple platformer, meant to demonstrate some of the features of the arcade library. Simply use WASD or the arrow keys to move the sprite around and jump onto the boxes. The movement is pretty easy to manage, however if you go off screen, you will have to restart the program to get back on, as there are no collisions for the edge of the screen.
 
-{Provide a description the game that you wrote. Describe how to play your game.}
+I wrote this software mostly as a means to get familiar with the python arcade module. I have a project with a group of people that also involves creating a game, albeit more complex. This software was a means to teach myself the skills I'll need in my team.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the game being played and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Simple Platformer Demonstration](https://youtu.be/2Te6VF79ta8)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I used python in VS Code. I did not need any other tools, however I found a VS Code extention called Rainbow Indents that allows for better reading of indents. It was pretty useful.
 
-{Describe the programming language that you used and any libraries.}
+The only library I used was arcade.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Arcade Simple Platformer Tutorial](https://api.arcade.academy/en/latest/examples/platform_tutorial/index.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Camera that zooms in on the player
+* Level/screen switching
+* Better key controls
